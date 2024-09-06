@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: #313131;
+            color: #ffffff;
+        }
+        h1:hover{
+            background-color: #d46f10;
+        }
+        button:hover{
+            background-color: red;
+            padding: 10px;
+        }
+        div:first-child{
+            background-color:rgb(113, 224, 128);
+        }
+        div:last-child{
+            background-color: #ebe048;
+        }
+        div:nth-child(2n){
+            background-color: #a15478;
+        }
+        h1::after{
+            content: "AFTER !";
+            color: rgb(81, 180, 197);
+        }
+        h1::before{
+            content: "bEFORE !";
+            color: rgb(253, 72, 72);
+        }
+        p::first-letter{
+            background-color: #3f002c;
+            font-size: 120px;
+            padding: 8px ;
+            
+        }
+    </style>
+</head>
+<body>
+    <h1>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos.</h1>
+    <input disabled type="button" name="" id="">
+    <button>submit</button>
+
+    <h1>Hover</h1>
+    <button>Focus</button>
+    <input type="text" required="true">
+    <input type="checkbox">
+    <input type="text" disabled="true">
+    <div>
+    <div>one</div>
+    <div>two</div>
+    <div>three</div>
+    </div>
+    <h1>Lorem ipsum dolor sit amet consectetur.</h1>
+    <h2>Lorem ipsum dolor sit amet.</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam,
+         asperiores vel 
+        aliquam fugiat saepe 
+        deserunt inventore reprehenderit maxime velit non
+        , labore dolor ad itaque corrupti minus est fugit 
+        neque debitis.</p>
+</body>
+</html>
+
+<!-- https://youtu.be/WuiB5TAQOAM -->

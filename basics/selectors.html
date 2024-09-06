@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selectors</title>
+    <style> 
+    /* (*) is everything selectors */
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            background-color: #313131;
+        }
+        /* h1 { 
+            background-color: #16976c;
+
+        } */
+         .bg-orange{
+            background-color: orange;
+         }
+         #bg-green {
+                background-color: green;
+         }
+         a[target ="_blank"]{
+                background-color:rgb(187, 17, 46);
+                padding: 10px;
+         }
+         h1,h2,h3{
+            background-color: #270606;
+         }
+        ul  li {
+            background-color: #66c4a0;
+         }
+         header >a  {
+            background-color: #b92694;
+         }
+         img + p {
+            background-color: #4b9c32;
+         }
+    </style>
+</head>
+<body>
+    <h1>Lorem ipsum dolor sit amet consectetur.</h1>
+    <h2 class = "bg-orange">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vero, deserunt!</h2>
+    <h3 id="bg-green" class="bg-orange">Lorem ipsum dolor sit amet.</h3>
+    <a   href="https://pwskills.com" > PW SKILLS </a>
+
+
+    <h1>Lorem ipsum dolor sit amet.</h1>
+    <h2>Lorem ipsum dolor sit amet.</h2>
+    <h3>Lorem ipsum dolor sit amet.</h3>
+    <ul>
+        <li>One</li>
+        <li>Two</li>
+        <li>Three</li>
+    </ul>
+  <li>  Four</li>
+
+
+  <header>
+    <a href="#">Google</a>
+  
+
+
+  <nav >
+    <ul>
+        <li>Home</li>
+        <a href="#">Logo</a>
+    </ul>
+  </nav>
+  <a href="#">Bing</a>
+</header>
+
+<div>
+    <img src="#" alt="">
+    <p>Change me </p>
+    <p>Change me three</p>
+    <div>
+        <p>Change me too</p>
+    </div>
+</div>
+    <a  target="_parent" href="https://pwskills.com" > PW SKILLS </a>
+    <a  target="_blank" href="https://google.com" > PW SKILLS </a>
+    <a target="top" href="https://youtu.be/WuiB5TAQOAM?si=HIBIouPo4xGG5auT">CSS BY hitesh sir </a>
+
+</body>
+</html>
+
+<!-- id=> is unique its not repete but you repete its give you a error and its a bad pratice  -->
+ <!-- id => overwriting the value  -->
